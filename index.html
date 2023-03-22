@@ -22,28 +22,32 @@
                 <p>Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.</p>
                 </div>
             </div>            
-            <div class="col-md-6 intro text-primary"> 
+            <div class="col-md-6 intro text-info"> 
                 <h2 class="text-success">Akan Name Search</h2>
                 <br>                
-                <form>
-                    <div class="form-group text-info">                        
-                        <label for="dateOfBirth">Enter your Date of Birth</label>
-                        <input type="date" class="form-control" id="inputDate" placeholder="Date of Birth">                        
-                    </div>
-                    <br>                   
-                    <div class="radio text-info">
-                        <h5>Select your gender</h5>
-                        <label>
-                            <input type="radio" name="Male" id="male" Value="Male">Male                          
-                        </label>
-                      </div>                      
-                      <div class="radio text-info">
-                        <label>
-                            <input type="radio" name="Female" id="female" value="Female">Female                       
-                        </label>                        
-                      </div>                    
+                <div class="forms">
+                    <form name="akanName">
+                        <div class="form-group">
+                          <label for="year">Year of Birth</label>
+                          <input name="year" type="text" class="form-control" id="birthYear" placeholder="Enter year of birth">
+                        </div>
+                        <div class="form-group">
+                            <label for="month">Month of Birth </label>
+                            <input name="month" type="text" class="form-control" id="birthMonth" placeholder="Enter month of Birth">
+                        </div>
+                        <div class="form-group">
+                            <label for="day">Date of birth</label>
+                            <input name="day" type="text" class="form-control" id="birthDay" placeholder="Enter date of birth">
+                        </div>  
+                    <br>  
+                    <label for="gender">Select your gender</label>            
+                    <select class="form-control" name="Gender" id="gender">                        
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                     </select><br>              
                     <button type="submit" class="btn btn-success">Submit</button>
-                  </form>                		
+                    </form> 
+                </div>                                 		
         </div>
     </div>
 <script src="javascript/script.js"></script>   
