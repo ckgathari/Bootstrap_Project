@@ -5,11 +5,11 @@ This is a web application that takes a user's birthday and calculates the day of
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
 
 ## Technologies Used
-HTML
-CSS
-Git
-JAVASCRIPT
-BOOTSTRAP
+HTML  
+CSS  
+Git  
+JAVASCRIPT  
+BOOTSTRAP  
 
 ## BDD
 Displays Form For Entering Date and Gender INPUT: "Enter User's Date of Birth" INPUT:"Select User's Gender" OUTPUT:"Display User's Akan Name As Submitted Date and Gender"
