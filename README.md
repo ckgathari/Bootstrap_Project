@@ -1,10 +1,8 @@
 # Akan Names Resolver Project
 
+## Project Description
 This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
-
-## Author
-
-Stephen Chege
+Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
 
 ## Technologies Used
 HTML
@@ -21,7 +19,7 @@ Clears Form and Resets the Click INPUT:"Click Clear Selection Button" OUTPUT:"Cl
 
 ## Roadmap
 
-This project can be advanced from a web application to a mobile app access 
+This project can be advanced from a web application to a mobile app for ease of access and increase its usage.
 
 ## Contributing
 
