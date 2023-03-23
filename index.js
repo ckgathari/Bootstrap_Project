@@ -1,3 +1,5 @@
+headerTitle.style.color="red";
+
 const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
 const male = {
