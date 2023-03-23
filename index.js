@@ -14,38 +14,46 @@ function validateForm() {
         getUserInput()
     }
   }
+let form = document.querySelector('form')
+let submitButton = document.querySelector('#submit-button')
+console.log(submitButton);
+form.addEventListener('submit', function(submitevent){
+submitevent.preventDefault();
+console.log(submitevent);
+})
+form.reset();
 
-var getUserInput = function() {
-    let inputYear = document.querySelector("#birthYear").value
-    let intYear = parseInt(inputYear)
+var getUserInput = () => {
+    let inputYear = document.querySelector("#birthYear").value;
+    let intYear = parseInt(inputYear);
 
 
-    let inputMonth = document.querySelector("#birthMonth").value
-    let intMonth = parseInt(inputMonth)
+    let inputMonth = document.querySelector("#birthMonth").value;
+    let intMonth = parseInt(inputMonth);
 
-    let inputDay = document.querySelector("#birthDay").value
-    let intDay = parseInt(inputDay)
+    let inputDay = document.querySelector("#birthDay").value;
+    let intDay = parseInt(inputDay);
 
-    let inputGender = document.querySelector("#gender").value
+    let inputGender = document.querySelector("#gender").value;
     let akanName;
 
 
-    if(intDay <= 0 || intDay> 31){
-        alert("Enter correct day")
+    if (intDay <= 0 || intDay > 31) {
+        alert("Enter correct day");
     }
-    if(intMonth <=0 || intMonth>12){
-        alert("Enter correct month")
+    if (intMonth <= 0 || intMonth > 12) {
+        alert("Enter correct month");
     }
 
-    let day = new Date(intYear+"-"+intMonth+"-"+inputDay).getDay()
+    let day = new Date(intYear + "-" + intMonth + "-" + inputDay).getDay();
 
 
-    if(inputGender ==="Male"){
-        akanName = namesOfMale[day]
-        alert("Your Akan name is " + akanName + ". Because you are a male born on "+ daysOfTheWeek[day])
-    }else if (inputGender === "Female"){
-        akanName = namesOfFemale[day]
-        alert("Your Akan name is " + akanName + ". Because you are a female born on "+ daysOfTheWeek[day])
+    if (inputGender === "Male") {
+        akanName = namesOfMale[day];
+        alert("Your Akan name is " + akanName + ". Because you are a male born on " + daysOfTheWeek[day]);
+    } else if (inputGender === "Female") {
+        akanName = namesOfFemale[day];
+        alert("Your Akan name is " + akanName + ". Because you are a female born on " + daysOfTheWeek[day]);
     }
 }
 
