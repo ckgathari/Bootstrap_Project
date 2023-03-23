@@ -12,13 +12,14 @@ JAVASCRIPT
 BOOTSTRAP  
 
 ## BDD
-*Enter year of Birth eg 2019 Input >Example 2019 Output Example 2019
+- Enter year of Birth eg 2019 Input >Example 2019 Output Example 2019
 
-*Enter month of birth eg 5 for May Input >Example 5 Output example 5
+- Enter month of birth eg 5 for May Input >Example 5 Output example 5
 
-*Enter Day of the month the user was born in eg 11 Input >Example 11 Output example 11
+- Enter Day of the month the user was born in eg 11 Input >Example 11 Output example 11
 
-*Select gender Input Example male Output male
+- Select gender Input Example male Output male
+
 Submit. Upon submission, the program checks the inputs against the conditions set for the inputs and executes the program if all are met else an alert is sent to the user to enter valid deatils.
 
 
