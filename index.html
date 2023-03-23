@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <script src="index.js" defer></script> 
     <title>AKAN Names</title>    
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <h1 class="text-primary">Akan Names Resolver</h1>
-    <h6 class="text-primary">A Name is Not JUst a Name</h6>
+    <h6 class="text-primary">A Name is Not Just a Name!</h6>
     <br>
 <body class="container-fluid" style="background-image:url(img/volcano.jpg);">
     <div class="container">
@@ -25,31 +26,32 @@
             <div class="col-md-6 intro text-info"> 
                 <h2 class="text-success">Akan Name Search</h2>
                 <br>                
-                <div class="forms">
+                <div class="form">
                     <form name="akanName">
                         <div class="form-group">
                           <label for="year">Year of Birth</label>
-                          <input name="year" type="text" class="form-control" id="birthYear" placeholder="Enter year of birth">
+                          <input name="year" type="text" class="form-control" id="birthYear" placeholder="Enter year of birth" required>
                         </div>
-                        <div class="form-group">
-                            <label for="month">Month of Birth </label>
-                            <input name="month" type="text" class="form-control" id="birthMonth" placeholder="Enter month of Birth">
-                        </div>
-                        <div class="form-group">
-                            <label for="day">Date of birth</label>
-                            <input name="day" type="text" class="form-control" id="birthDay" placeholder="Enter date of birth">
-                        </div>  
+                     <div class="form-group">
+                         <label for="month">Month of Birth </label>
+                         <input name="month" type="text" class="form-control" id="birthMonth" placeholder="Enter month of Birth" required>
+                     </div>
+                     <div class="form-group">
+                         <label for="day">Date of birth</label>
+                         <input name="day" type="text" class="form-control" id="birthDay" placeholder="Enter date of birth" required>
+                     </div>  
                     <br>  
                     <label for="gender">Select your gender</label>            
                     <select class="form-control" name="Gender" id="gender">                        
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
                      </select><br>              
-                    <button type="submit" class="btn btn-success">Submit</button>
+                     <input type="submit" value = "Submit" onclick="result()">
+                     <p id="result"></p>
                     </form> 
                 </div>                                 		
         </div>
     </div>
-<script src="./index.js"></script>   
+<script src="index.js"></script>   
 </body>
 </html>
