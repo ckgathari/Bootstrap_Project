@@ -12,14 +12,23 @@ JAVASCRIPT
 BOOTSTRAP  
 
 ## BDD
-Displays Form For Entering Date and Gender INPUT: "Enter User's Date of Birth" INPUT:"Select User's Gender" OUTPUT:"Display User's Akan Name As Submitted Date and Gender"
-Displaying an Error Message if Date input Left Blank INPUT: "" OUTPUT:"Display an Error Message"
-Display an Error Message if Gender is not chosen INPUT: "" OUTPUT: "Clears and Resets the Form"
-Clears Form and Resets the Click INPUT:"Click Clear Selection Button" OUTPUT:"Clears and Resets the form"
+*Enter year of Birth eg 2019 Input >Example 2019 Output Example 2019
 
-## Roadmap
+*Enter month of birth eg 5 for May Input >Example 5 Output example 5
+
+*Enter Day of the month the user was born in eg 11 Input >Example 11 Output example 11
+
+*Select gender Input Example male Output male
+Submit. Upon submission, the program checks the inputs against the conditions set for the inputs and executes the program if all are met else an alert is sent to the user to enter valid deatils.
+
+
+## Roadmapwith
 
 This project can be advanced from a web application to a mobile app for ease of access and increase its usage.
+
+## Known Bugs
+
+some of the outputs do not correspond to the days of the week for both genders and the project is still ongoing to resolve this
 
 ## Contributing
 
