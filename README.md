@@ -38,6 +38,9 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
+## live site
+You can access the website via https://ckgathari.github.io/Bootstrap_Project/
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
